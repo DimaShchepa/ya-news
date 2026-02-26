@@ -1,6 +1,6 @@
-import pytest
 from http import HTTPStatus
 
+import pytest
 from django.urls import reverse
 
 from news.forms import WARNING, BAD_WORDS

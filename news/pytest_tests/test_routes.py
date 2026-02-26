@@ -1,10 +1,9 @@
-import pytest
-from pytest_django.asserts import assertRedirects
-
-from pytest_lazy_fixtures import lf
 from http import HTTPStatus
 
+import pytest
 from django.urls import reverse
+from pytest_django.asserts import assertRedirects
+from pytest_lazy_fixtures import lf
 
 
 @pytest.mark.django_db
